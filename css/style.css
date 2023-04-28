@@ -1,4 +1,4 @@
-@import "root.css";
+
 
 /* components */
 @import "components/bg.css";
@@ -7,8 +7,11 @@
 @import "components/like.css";
 @import "components/tail.css";
 
+@import "root.css";
+@import "media.css";
 * {
     box-sizing: border-box;
+   
 }
 body {
     margin: 0;
