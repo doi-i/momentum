@@ -53,7 +53,7 @@ const tteoks = [
     },
     {
       brand: "루비 떡볶이",
-      menu: "새우낑 떡볶이",
+      menu: "새우깡 떡볶이",
     },
     {
       brand: "덕자네 방앗간",
