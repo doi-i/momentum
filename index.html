@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/f4013b528f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum app</title>
+</head>
+<body>
+    <header>
+        
+        <h1>떡도리</h1>
+        <h2>[tteokdori]</h2>
+        <h3>맛도리 떡볶이를 찾는 떡도리</h3>
+ 
+    </header>
+    <section>
+    <div class="main">
+            <div class="form-greeting">
+                <h1 class="message hidden">떡도리님의 이름은 무엇인가요?</h1>
+                <form class="login-form hidden">
+                    <div class="login-form_set">
+                    <input type="text" placeholder="이름을 입력해주세요.">
+                    <input type="submit" value="">
+                    </div>
+                </form>
+                <div class="grediv hidden">
+                    <h1 class="greeting one hidden">안녕하세요 </h1>
+                    <h1 class="greeting two hidden"></h1>
+                    <h1 class="greeting three hidden"> 떡도리님!</h1>
+                    <img class="tteok hidden" src="img/09.png"/>
+                </div>
+            </div>
+            <div class="likediv hidden">
+            <form class="like">
+                <span>어떤 떡볶이를 좋아하세요?</span>
+                <input type="text" placeholder="Write and Press Enter"/>
+            </form>
+            <ul class="like-list"></ul>
+            </div>
+            
+        </div> 
+
+        <div class="tail">
+            <div class="tailcolumn">
+            <div class="weather">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="todayof">
+                <span>오늘은 [</span>
+                <span class="today_random"></span>
+                <span>]의 [</span>
+                <span class="today_random"></span>
+                <span>] 어때요?</span>
+            </div>
+        </div>
+            <div class="calender">
+                <h2 class="date"></h2>
+                <h3 class="clock"></h3>
+            </div>
+        </div>
+    </section>   
+
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/today.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/like.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html> 

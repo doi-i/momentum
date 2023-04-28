@@ -1,0 +1,64 @@
+@keyframes openLike {
+    from {
+        opacity: 0;
+
+    }
+    to {
+        opacity: 100;
+    }
+}
+
+.likediv {
+    background-color: var(--form-color);
+    margin-top: 10px;
+    width: 300px;
+    animation: openLike 1s ;
+}
+
+.like {
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.like input{
+   text-align: center;
+    border: none;
+    border-bottom: solid 2px var(--orange-color);
+    background-color: rgba(0,0,0,0);
+    width : 200px;
+    margin-top: 10px;
+    outline: none;
+}
+
+
+.like-list {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 15px;
+    margin-left: 0;
+}
+
+li::before {
+    content: "\2022";
+    width: 2px;
+    margin-right: 10px;
+    color: var(--orange-color);
+    
+}
+
+button {
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: var(--orange-color);
+    font-weight: 900;
+}

@@ -1,0 +1,34 @@
+@import "root.css";
+
+/* components */
+@import "components/bg.css";
+@import "components/header.css";
+@import "components/login.css";
+@import "components/like.css";
+@import "components/tail.css";
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+   
+}
+section {
+    height: 100vh;
+}
+
+.main {
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+

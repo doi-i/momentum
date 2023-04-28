@@ -1,0 +1,85 @@
+.form-greeting {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 300px;
+    background-color:var(--form-color);
+    position: relative;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.message {
+    width:250px;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: -5px;
+ 
+}
+
+.login-form {
+    margin-left: 20px;
+   
+}
+
+.login-form_set {
+    position: absolute;
+    display: flex;
+    right: 65px;
+    bottom: 5px;
+}
+
+.login-form input:first-child{
+    border: none; 
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: var(--orange-color) solid 1px;
+    text-align: center;
+    height: 20px;
+    outline: none;
+  
+}
+
+.login-form input:last-child {
+    font-size: 18px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    text-align: center;
+    color: var(--orange-color);
+    padding-left: 0;
+    
+}
+
+
+.grediv {
+    display: flex;
+    margin: 0;
+}
+
+.greeting {
+    font-size:15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.two {
+    color: var(--orange-color);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tteok {
+    z-index: 100;
+    width: 50px;
+    height: 40px;
+    margin-bottom: 0;
+   
+}
