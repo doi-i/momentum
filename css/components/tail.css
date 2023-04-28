@@ -1,5 +1,6 @@
 .tail {
-   width:100vw; 
+   width:100vw;
+   height: 60px;
    position: absolute;
    right: 0;
    bottom:0;
@@ -10,8 +11,9 @@
 }
 
 .tailcolumn{
+    
     width: 95%;
-    padding-left: 55px;
+    padding-left: 50px;
     text-align: center;
     padding-top: 8px;
 }
