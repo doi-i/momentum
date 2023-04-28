@@ -9,6 +9,8 @@
     width: 300px;
     background-color:var(--form-color);
     position: relative;
+    margin-top: -10px;
+    margin-bottom: 0;
 }
 
 
@@ -63,6 +65,7 @@
 .grediv {
     display: flex;
     margin: 0;
+    margin-left: 15px;
 }
 
 .greeting {
@@ -75,6 +78,7 @@
     color: var(--orange-color);
     margin-left: 5px;
     margin-right: 5px;
+    font-weight: 500
 }
 
 .tteok {
