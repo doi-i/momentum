@@ -13,6 +13,10 @@
     margin-top: 10px;
     width: 300px;
     animation: openLike 1s ;
+    max-height: 295px;
+    overflow-y: scroll;
+   
+    
 }
 
 .like {
@@ -22,7 +26,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    padding-bottom: 10px;
 }
 
 .like input{
@@ -46,6 +50,7 @@
     list-style: none;
     font-size: 15px;
     margin-left: 0;
+    margin-top: 5px;
 }
 
 li::before {

@@ -33,7 +33,7 @@ function paintLike(likeObj){
     btn.addEventListener("click",deleteList)
     
 }
-
+const getLike = localStorage.getItem(LIKE_KEY);
 function onSubmit(event){
     event.preventDefault();
     const like = like_input.value;
@@ -42,14 +42,24 @@ function onSubmit(event){
         item: like,
         id: Date.now()
     } 
+    
+    if (like_list.some(v => v.item === likeObj.item) == true) {
+        alert("떡도리님의 맛도리를 다양하게 알려주세요!");
+    } else {
     like_list.push(likeObj);
     paintLike(likeObj);
     saveLike();
+    }
+    
+    
 }
+
+    
+   
 
 like_form.addEventListener("submit",onSubmit);
 
-const getLike = localStorage.getItem(LIKE_KEY);
+
 
 if (getLike !== null){
     const parsedLike = JSON.parse(getLike);

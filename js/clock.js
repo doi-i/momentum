@@ -4,7 +4,7 @@ const clock = document.querySelector(".clock");
 function clockTiktok(){
     const forDate = new Date();
     const years = String(forDate.getFullYear());
-    const monthes = String(forDate.getMonth()).padStart(2,"0");
+    const monthes = String(forDate.getMonth()+1).padStart(2,"0");
     const dates = String(forDate.getDate()).padStart(2,"0");
     const hours = String(forDate.getHours()).padStart(2,"0");
     const minutes = String(forDate.getMinutes()).padStart(2,"0");
