@@ -9,7 +9,7 @@ function clockTiktok(){
     const hours = String(forDate.getHours()).padStart(2,"0");
     const minutes = String(forDate.getMinutes()).padStart(2,"0");
     date.innerText = `${years}/${monthes}/${dates}`;
-    clock.innerText = `${hours}:${minutes}`;
+    clock.innerText = `${hours}시${minutes}분`;
 
 
 }
